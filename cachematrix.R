@@ -18,8 +18,8 @@ makeCacheMatrix <- function(x = numeric()) {
 		m
 		}
 	list(set=set, get = get,
-		setmean=setmean,
-		getmean=getmean)
+		set=set,
+		get=get)
 	}
 
 }
